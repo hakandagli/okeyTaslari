@@ -1,3 +1,30 @@
 <div id="main-container">
 
-</div>
+  <div id="btn-container">
+    <button (click)="setCards()">Reset</button>
+    <button (click)="rotateChange()">Rotate Screen</button>
+  </div>
+
+  <div id="board" [ngClass]="{'mobile': mobile===true}">
+    <div class="card" *ngFor="let card of cards" (click)="selectedChange(card)"
+      [ngClass]="{'selected': card.isSelected===true}">
+      <div [ngSwitch]="card.color">
+        <div *ngSwitchCase="colorType.black" class="card-text black-card">
+          <span> {{card.value}}</span>
+          <div class="circle"></div>
+        </div>
+        <div *ngSwitchCase="colorType.blue" class="card-text blue-card">
+          {{card.value}}
+          <div class="circle"></div>
+        </div>
+        <div *ngSwitchCase="colorType.red" class="card-text red-card">
+          {{card.value}}
+          <div class="circle"></div>
+        </div>
+        <div *ngSwitchCase="colorType.yellow" class="card-text yellow-card">
+          {{card.value}}
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+  </div>
