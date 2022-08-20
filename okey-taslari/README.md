@@ -1,27 +1,11 @@
 # OkeyTaslari
+Uygulamanın amacı: okey taşlarından hangilerinin çıktığının takibini yapmak.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.6.
+## Neden yapmaya ihtiyaç duydum ?
+Arkdaşımla beraber iki tane kızla okey oynadık, rezil olduk. Daha sonra içerledim ve böyle bir uygulama yapma kararı aldım.
 
-## Development server
+## Uygulamayı kullandıktan sonra, kızlara yenildik mi ?
+Evet, maalesef şans faktörünü bir türlü yenemedik. Bir sonraki versiyonda elimizdeki taşları ve rakiplerimizin attıkları taşları analiz ederek kim ne biriktiritor onun analizini yapan bir yapay zeka projesi için çalışmalara başladım.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Kumarda kaybedip, aşkda kazandık mı ?
+O da olmadı, elimiz boş bir şekilde eve döndük. Bu işler için okey yanlış tercih olabilir, yenseniz sıkıntı, yenilseniz sıkıntı kahveyi deneyin.(CoffeeLab öneririm ikili koltuklardan var, hani yan yana oturursanız falan diye)
