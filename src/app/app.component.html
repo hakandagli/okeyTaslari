@@ -5,9 +5,9 @@
     <button (click)="rotateChange()">Rotate Screen</button>
   </div>
 
-  <div id="board" [ngClass]="{'mobile': mobile===true}">
+  <div id="board" [ngClass]="{'mobile': mobile === true}">
     <div class="card" *ngFor="let card of cards" (click)="selectedChange(card)"
-      [ngClass]="{'selected': card.isSelected===true}">
+      [ngClass]="{'selected': card.existingState === existingStateType.none }">
       <div [ngSwitch]="card.color">
         <div *ngSwitchCase="colorType.black" class="card-text black-card">
           <span> {{card.value}}</span>
@@ -25,6 +25,10 @@
           {{card.value}}
           <div class="circle"></div>
         </div>
+      </div>
+
+      <div class="counter">
+       {{card.existingState}}
       </div>
     </div>
   </div>

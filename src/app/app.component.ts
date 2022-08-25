@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { card, colorType } from './models/card.model';
+import { card, colorType, existingStateType } from './models/card.model';
 
 @Component({
   selector: 'app-root',
@@ -10,7 +10,7 @@ import { card, colorType } from './models/card.model';
 export class AppComponent implements OnInit {
   title = 'okey-taslari';
   cards: card[] = [];
-  mobile:boolean = false;
+  mobile: boolean = false;
 
   ngOnInit(): void {
     this.setCards();
@@ -28,7 +28,7 @@ export class AppComponent implements OnInit {
               id: idCount,
               color: parseInt(color) as colorType,
               value: i,
-              isSelected: false
+              existingState: existingStateType.double
             }
           )
         }
@@ -36,12 +36,12 @@ export class AppComponent implements OnInit {
     }
   }
 
-  selectedChange(card:card){
-    let index = this.cards.findIndex(x=>x.id===card.id);
-    this.cards[index].isSelected = !this.cards[index].isSelected;
+  selectedChange(card: card) {
+    let index = this.cards.findIndex(x => x.id === card.id);
+    this.cards[index].existingState = (this.cards[index].existingState === existingStateType.none) ? existingStateType.double : this.cards[index].existingState as number - 1 as existingStateType;
   }
 
-  get colorTypeKeys():colorType[]{  
+  get colorTypeKeys(): colorType[] {
     let colors = [];
     for (let color in colorType) {
       if (!isNaN(Number(color))) {
@@ -49,13 +49,18 @@ export class AppComponent implements OnInit {
       }
     }
     return colors;
-  } 
+  }
 
-  get colorType(){
+  get colorType() {
     return colorType;
   }
 
-  rotateChange(){
+  get existingStateType() {
+    return existingStateType;
+  }
+
+
+  rotateChange() {
     this.mobile = !this.mobile;
   }
 }

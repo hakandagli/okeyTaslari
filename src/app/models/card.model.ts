@@ -2,7 +2,7 @@ export interface card {
     id:number,
     color:colorType,
     value:number,
-    isSelected:boolean
+    existingState:existingStateType
 }
 
 export enum colorType {
@@ -10,6 +10,12 @@ export enum colorType {
     blue,
     yellow,
     black
+}
+
+export enum existingStateType {
+    none,
+    solo,
+    double
 }
   
   
