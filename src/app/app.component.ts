@@ -59,7 +59,6 @@ export class AppComponent implements OnInit {
     return existingStateType;
   }
 
-
   rotateChange() {
     this.mobile = !this.mobile;
   }
