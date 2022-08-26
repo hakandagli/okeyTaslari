@@ -8,4 +8,4 @@ Arkdaşımla beraber iki tane kızla okey oynadık, rezil olduk. Daha sonra içe
 Evet, maalesef şans faktörünü bir türlü yenemedik. Bir sonraki versiyonda elimizdeki taşları ve rakiplerimizin attıkları taşları analiz ederek kim ne biriktiriyor onun analizini yapan bir yapay zeka projesi için çalışmalara başladım.
 
 ## Kumarda kaybedip, aşkta kazandık mı ?
-O da olmadı, elimiz boş bir şekilde eve döndük. Bu işler için okey yanlış tercih olabilir, yenseniz sıkıntı, yenilseniz sıkıntı kahveyi deneyin.(CoffeeLab öneririm ikili koltuklardan var, hani yan yana oturursanız falan diye)
+O da olmadı, elimiz boş bir şekilde eve döndük. Bu işler için okey yanlış tercih olabilir, yenseniz sıkıntı, yenilseniz sıkıntı kahveyi deneyin.(CoffeeLab öneririm ikili koltuklardan var, hani yan yana oturursanız falan diye.)
