@@ -9,3 +9,6 @@ Evet, maalesef şans faktörünü bir türlü yenemedik. Bir sonraki versiyonda 
 
 ## Kumarda kaybedip, aşkta kazandık mı ?
 O da olmadı, elimiz boş bir şekilde eve döndük. Bu işler için okey yanlış tercih olabilir, yenseniz sıkıntı, yenilseniz sıkıntı kahveyi deneyin.(CoffeeLab öneririm ikili koltuklardan var, hani yan yana oturursanız falan diye.)
+
+## Project Link
+[Link](https://incredible-selkie-041d97.netlify.app/)
